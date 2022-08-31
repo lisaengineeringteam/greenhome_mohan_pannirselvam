@@ -12,3 +12,13 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - /opt/portainer:/data
+
+  homeassistant:
+    container_name: homeassistant
+    image: "ghcr.io/home-assistant/home-assistant:stable"
+    volumes:
+      - /opt/homeassistant/config:/config
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
