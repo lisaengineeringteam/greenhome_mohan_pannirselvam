@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "name": "Partyraum",
+        "id": "partyraum",
+        "picture": null
+      },
+      {
+        "name": "Living Room",
+        "id": "living_room",
+        "picture": null
+      },
+      {
+        "name": "Kitchen",
+        "id": "kitchen",
+        "picture": null
+      },
+      {
+        "name": "Bedroom",
+        "id": "bedroom",
+        "picture": null
+      },
+      {
+        "name": "Home Office",
+        "id": "home_office",
+        "picture": null
+      }
+    ]
+  }
+}

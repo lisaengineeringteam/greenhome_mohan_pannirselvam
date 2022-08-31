@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "52e8791b2894e13722b3b7adf8326b85",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "70219f90973c89f48acaf5a1412f09c9",
+        "version": 1,
+        "domain": "sonos",
+        "title": "Sonos",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "sonos",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "260784450e9cc4788ecc8839f7da6a32",
+        "version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d77401702171629e8575f7276b0b6120",
+        "version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "cb372cca09dd13d4b1bca915fae317ae",
+        "version": 1,
+        "domain": "ipp",
+        "title": "Kyocera ECOSYS P5021cdn",
+        "data": {
+          "host": "192.168.178.98",
+          "port": 631,
+          "ssl": false,
+          "verify_ssl": false,
+          "base_path": "/ipp/print",
+          "name": "Kyocera ECOSYS P5021cdn",
+          "uuid": "4509a320-00df-0096-0055-002507526053"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "4509a320-00df-0096-0055-002507526053",
+        "disabled_by": null
+      }
+    ]
+  }
+}

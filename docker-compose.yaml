@@ -3,14 +3,15 @@ version: '3.0'
 services:
   portainer:
     container_name: portainer
-    image: portainer/portainer-ce
+    image: portainer/portainer-ce:latest
     restart: always
+    security_opt:
+      - no-new-privileges:true
     ports:
-      - "9000:9000/tcp"
-    environment:
-      - TZ=Europe/London
+      - "9000:9000"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/localtime:/etc/localtime:ro
       - /opt/portainer:/data
 
   homeassistant:
@@ -19,6 +20,9 @@ services:
     volumes:
       - /opt/homeassistant/config:/config
       - /etc/localtime:/etc/localtime:ro
+      - /opt/homeassistant/homeassistantfrontend:/workspaces/frontend
+
     restart: unless-stopped
     privileged: true
     network_mode: host
+

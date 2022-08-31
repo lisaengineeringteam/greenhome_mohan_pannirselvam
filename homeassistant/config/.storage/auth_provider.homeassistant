@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth_provider.homeassistant",
+  "data": {
+    "users": [
+      {
+        "username": "greenhome",
+        "password": "JDJiJDEyJFpHMm5heXAydkNZNTJSZ1lTNHdWdi40a0FzMjFtTlI5aXlkblh4S3ZLUFExRDcvb0JwTGF1"
+      }
+    ]
+  }
+}

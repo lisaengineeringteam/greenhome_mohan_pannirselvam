@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "name": "greenhome",
+        "user_id": "ef393569d48f4079ae3881ca434b346c",
+        "device_trackers": [],
+        "id": "greenhome"
+      }
+    ]
+  }
+}

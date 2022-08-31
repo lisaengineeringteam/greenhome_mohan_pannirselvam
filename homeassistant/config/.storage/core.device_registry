@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "config_entries": [
+          "70219f90973c89f48acaf5a1412f09c9"
+        ],
+        "connections": [
+          [
+            "upnp",
+            "uuid:RINCON_48A6B8A5A09001400"
+          ],
+          [
+            "mac",
+            "48:a6:b8:a5:a0:90"
+          ]
+        ],
+        "identifiers": [
+          [
+            "sonos",
+            "RINCON_48A6B8A5A09001400"
+          ]
+        ],
+        "manufacturer": "Sonos",
+        "model": "One SL",
+        "name": "Partyraum",
+        "sw_version": "14.12",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "7e927df51415937bf77a750f95cd81db",
+        "via_device_id": null,
+        "area_id": "partyraum",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.178.73:1400/support/review"
+      },
+      {
+        "config_entries": [
+          "260784450e9cc4788ecc8839f7da6a32"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "met"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name": "Forecast",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "bb91274a2ab323e3e8a335b018b688b4",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://www.met.no/en"
+      },
+      {
+        "config_entries": [
+          "cb372cca09dd13d4b1bca915fae317ae"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "ipp",
+            "4509a320-00df-0096-0055-002507526053"
+          ]
+        ],
+        "manufacturer": "Kyocera",
+        "model": "ECOSYS P5021cdn",
+        "name": "ECOSYS P5021cdn",
+        "sw_version": "2RB_3000.002.503",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "09885c69e6924af0ee4a92d78e8213d1",
+        "via_device_id": null,
+        "area_id": "home_office",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      }
+    ],
+    "deleted_devices": []
+  }
+}
